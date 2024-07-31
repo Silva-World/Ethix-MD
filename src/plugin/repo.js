@@ -3,7 +3,7 @@ const { generateWAMessageFromContent, proto } = pkg;
 import axios from 'axios'; // Import axios for HTTP requests
 
 const handleRepoCommand = async (m, Matrix) => {
-  const repoUrl = 'https://api.github.com/repos/Ethix-Xsid/Ethix-MD';
+  const repoUrl = 'https://api.github.com/repos/SilvaTechB/Ethix-MD';
   try {
     const response = await axios.get(repoUrl);
     const repoData = response.data;
@@ -30,7 +30,7 @@ const handleRepoCommand = async (m, Matrix) => {
               text: messageText
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "© Powered By Ethix-MD"
+              text: "© Powered By silva"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
              ...(await prepareWAMessageMedia({ image: { url: `https://telegra.ph/file/fbbe1744668b44637c21a.jpg` } }, { upload: Matrix.waUploadToServer })),
@@ -52,14 +52,14 @@ const handleRepoCommand = async (m, Matrix) => {
                   name: "cta_url",
                   buttonParamsJson: JSON.stringify({
                     display_text: "Click Here To Fork",
-                    url: `https://github.com/Ethix-Xsid/Ethix-MD/fork`
+                    url: `https://github.com/SilvaTechB/Ethix-MD/fork`
                   })
                 },
                 {
                   name: "cta_url",
                   buttonParamsJson: JSON.stringify({
                     display_text: "Join Our Community",
-                    url: `https://whatsapp.com/channel/0029VaWJMi3GehEE9e1YsI1S`
+                    url: `https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v`
                   })
                 }
               ],
@@ -77,7 +77,7 @@ const handleRepoCommand = async (m, Matrix) => {
     await Matrix.relayMessage(repoMessage.key.remoteJid, repoMessage.message, {
       messageId: repoMessage.key.id
     });
-    await m.React("✅");
+    await m.React("☣");
 
   } catch (error) {
     console.error("Error processing your request:", error);
