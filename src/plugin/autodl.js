@@ -16,13 +16,13 @@ const downloadAndSendMedia = async (m, Matrix) => {
     const domain = urlObj.hostname.replace('www.', '');
 
     if (supportedDomains.some(d => domain.includes(d))) {
-      const apiUrl = `https://ethixdl-003a39444563.herokuapp.com/download?url=${encodeURIComponent(text)}`;
+      const apiUrl = `https://api.xfar.net/feature/downloader?url=${encodeURIComponent(text)}`;
       const res = await fetch(apiUrl);
       const result = await res.json();
 
       if (result.status) {
         const mediaData = result.data;
-        const caption = `> © Powered By Ethix-Xsid`;
+        const caption = `> © Powered By Ethix-md`;
 
         if (mediaData.low) {
           const mediaUrl = mediaData.low;
