@@ -13,13 +13,13 @@ const alive = async (m, Matrix) => {
     if (['alive', 'uptime', 'runtime'].includes(cmd)) {
 
   const uptimeMessage = `*🤖 ETHIX-MD Status Overview*
-_________________________________________
+_______________________________________
 
 *📆 ${days} Day*
 *🕰️ ${hours} Hour*
 *⏳ ${minutes} Minute*
 *⏲️ ${seconds} Second*
-_________________________________________
+_______powered by silva tech____________
 `;
 
   const buttons = [
@@ -51,7 +51,7 @@ _________________________________________
             text: uptimeMessage
           }),
           footer: proto.Message.InteractiveMessage.Footer.create({
-            text: "© Powered By 𝞢𝙏𝞖𝞘𝞦-𝞛𝘿"
+            text: "© Powered By 𝕊𝕀𝕃𝕍𝔸"
           }),
           header: proto.Message.InteractiveMessage.Header.create({
             title: "",
