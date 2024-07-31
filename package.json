@@ -10,7 +10,7 @@
     "restart": "pm2 restart Ethix-MD"
   },
   "keywords": ["ethix-md", "whatsapp-bot", "whatsapp md bot"],
-  "author": "Ethix-Xsid",
+  "author": "SilvaTechB",
   "license": "ISC",
   "dependencies": {
     "@distube/ytdl-core": "^4.13.5",
