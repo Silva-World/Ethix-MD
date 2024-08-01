@@ -30,12 +30,12 @@
     "AUTO_TYPING": {
       "description": "make it true if you want bot to show typing",
       "required": false,
-      "value": ""
+      "value": "true"
     },
     "AUTO_RECORDING": {
       "description": "make it true if you want bot to show recording audio",
       "required": false,
-      "value": ""
+      "value": "true"
     },
     "ALWAYS_ONLINE": {
       "description": "make it true if you want bot to show always online",
