@@ -7,14 +7,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/SilvaTechB"><img title="Author" src="https://img.shields.io/badge/Ethix-Xsid-black?style=for-the-badge&logo=WhatsApp"></a>
+  <a href="https://github.com/SilvaTechB"><img title="Author" src="https://img.shields.io/badge/silva-tech-black?style=for-the-badge&logo=WhatsApp"></a>
 </p>
 
 <p align="center">Introducing Ethix-MD, It is designed to bring a whole new level of excitement to your boring WhatsApp use.</p>
 
 <p align="center">
   <a aria-label="Ethix-MD is free to use" href="https://youtube.com/@silvaedits254" target="_blank">
-    <img alt="𝕊𝕀𝕃𝕍𝔸" src="https://img.shields.io/youtube/channel/subscribers/" target="_blank" />
+    <img alt="𝕊𝕀𝕃𝕍𝔸" src="https://img.shields.io/youtube/channel/subscribers/@silvaedits254" target="_blank" />
   </a>
 </p>
 
