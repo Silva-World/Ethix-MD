@@ -155,7 +155,7 @@ const tempMailCommand = async (m, Matrix) => {
                                 text: inboxMessages
                             }),
                             footer: proto.Message.InteractiveMessage.Footer.create({
-                                text: "© Powered By 𝞢𝙏𝞖𝞘𝞦-𝞛𝘿"
+                                text: "© Powered By 🇸​​🇮​​🇱​​🇻​​🇦​ ​🇪​​🇹​​🇭​​🇮​​🇽​-𝞛𝘿"
                             }),
                             header: proto.Message.InteractiveMessage.Header.create({
                                 title: "",
